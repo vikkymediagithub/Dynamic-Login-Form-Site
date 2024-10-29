@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="./img/logo.png" width="100" height="100">
+			<h4>Vikkymedia</h4>
+		</div>
+		<div class="menu">
+			<a href="login.html" class="active">Login</a>
+			<a href="signup.html">Register</a>
+		</div>
+	</div>
+	<div class="container login">
+		<div id="head" class="login">
+			<h2>Login</h2>
+		</div>
+		<form id="loginForm" class="form">
+			<div class="form-control">
+				<input type="text" id="loginUsername" placeholder="Username / E-mail">
+				<div class="error" id="loginUsernameError"></div>
+			</div>
+			<div class="form-control">
+				<input type="password" id="loginPassword" placeholder="Password">
+				<div class="error" id="loginPasswordError"></div>
+			</div>
+			<div class="form-control">
+				<button type="submit">Login</button>
+			</div>
+		</form>
+		<div class="redirect">
+			<p>New here? <a href="signup.html">Create Account</a>.</p>
+		</div>
+	</div>
+	<script src="signin.js"></script>
+</body>
+</html>

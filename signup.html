@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header">
+		<div class="logo">
+			<img src="./img/logo.png" width="100" height="100">
+			<h4>Vikkymedia</h4>
+		</div>
+		<div class="menu">
+			<a href="login.html">Login</a>
+			<a href="signup.html" class="active">Register</a>
+		</div>
+	</div>
+	<div class="container">
+		<div id="head" class="login">
+			<h2>Register</h2>
+		</div>
+		<form id="signupForm" class="form">
+			<div class="form-control">
+				<input type="text" id="firstName" placeholder="First Name">
+				<div class="error" id="firstNameError"></div>
+			</div>
+			<div class="form-control">
+				<input type="text" id="lastName" placeholder="Last Name">
+				<div class="error" id="lastNameError"></div>
+			</div>
+			<div class="form-control">
+				<input type="text" id="username" placeholder="Username">
+				<div class="error" id="usernameError"></div>
+			</div>
+			<div class="form-control">
+				<input type="email" id="email" placeholder="Email Address">
+				<div class="error" id="emailError"></div>
+			</div>
+			<div class="form-control">
+				<input type="password" id="password" placeholder="Password">
+				<div class="error" id="passwordError"></div>
+			</div>
+			<div class="form-control">
+				<button type="submit">Register</button>
+			</div>
+		</form>
+		<div class="redirect">
+			<p>Already have an account? <a href="login.html">Login</a>.</p>
+		</div>
+	</div>
+	<script src="./Js/signup.js"></script>
+</body>
+</html>
+    
